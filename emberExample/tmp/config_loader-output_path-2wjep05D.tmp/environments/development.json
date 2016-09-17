@@ -1,0 +1,1 @@
+{"modulePrefix":"ember-example","environment":"development","rootURL":"/","locationType":"auto","EmberENV":{"FEATURES":{}},"APP":{"name":"ember-example","version":"0.0.0+bcb7ec88"},"ember-cli-mirage":{"usingProxy":false,"useDefaultPassthroughs":true},"exportApplicationGlobal":true}
