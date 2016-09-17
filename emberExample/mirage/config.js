@@ -32,8 +32,4 @@ export default function() {
       }]
     };
   });
-  // Find and return the provided spy from our spy list above
-  this.get('/places/:id', function (db, request) {
-    return { data: place.find((place) => request.params.id === place.id) };
-  });
 }

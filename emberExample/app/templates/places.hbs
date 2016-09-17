@@ -9,4 +9,7 @@
     Sobre Nosotros
   {{/link-to}}
 </div>
-
+{{#each model as |place|}}
+	{{places-listing place=place}}
+{{/each}}
+{{outlet}}
