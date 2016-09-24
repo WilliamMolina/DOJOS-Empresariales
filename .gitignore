@@ -1,11 +1,12 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-ReactJS/ReactAppBlanco/node_modules
+ReactJS/ListFilter/node_modules
+ReactJS/FluxExample/node_modules
 
 # production
-ReactJS/ReactAppBlanco/build
+ReactJS/ListFilter/build
 
 # misc
 .DS_Store
-ReactJS/ReactAppBlanco/npm-debug.log
+ReactJS/ListFilter/npm-debug.log
