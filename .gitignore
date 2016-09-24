@@ -1,11 +1,11 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-ReactAppBlanco/node_modules
+ReactJS/ReactAppBlanco/node_modules
 
 # production
-ReactAppBlanco/build
+ReactJS/ReactAppBlanco/build
 
 # misc
 .DS_Store
-ReactAppBlanco/npm-debug.log
+ReactJS/ReactAppBlanco/npm-debug.log

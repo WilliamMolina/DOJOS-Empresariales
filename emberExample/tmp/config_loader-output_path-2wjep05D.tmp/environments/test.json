@@ -1,1 +1,0 @@
-{"modulePrefix":"ember-example","environment":"test","rootURL":"/","locationType":"none","EmberENV":{"FEATURES":{}},"APP":{"LOG_ACTIVE_GENERATION":false,"LOG_VIEW_LOOKUPS":false,"rootElement":"#ember-testing","name":"ember-example","version":"0.0.0+bcb7ec88"},"ember-cli-mirage":{"usingProxy":false,"useDefaultPassthroughs":true},"exportApplicationGlobal":true}
