@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import LItem from './LItem';
 var Hola = React.createClass({
 	getInitialState: function(){
 		return{
@@ -29,12 +29,28 @@ var Hola = React.createClass({
 			items:updatedList
 		});
 	},
+	borrar:function(elemento,e){
+		var lista=this.state.items;
+		var indice=lista.indexOf(elemento.props.itemText);
+		lista.splice(indice,1);
+		this.setState({
+			items:lista
+		});
+		var listaCompleta=this.state.initialItems;
+		if(listaCompleta.length>lista.length){
+			var indice=listaCompleta.indexOf(elemento.props.itemText);
+			listaCompleta.splice(indice,1);
+		}
+		this.setState({
+        initialItems:listaCompleta
+      });
+	},
 
   render: function() {
     return (
    		<div>
    			<input type="text" onChange={this.filterList}/>
-   			<List items={this.state.items}/>
+   			<List items={this.state.items} borrar={this.borrar}/>
    		</div>
     );
   }
@@ -45,7 +61,7 @@ var List=React.createClass({
 		return(
 		<li key={item}>
 			<div>
-				<label>{item}</label>
+				<LItem itemText={item} borrar={this.props.borrar}/>
 			</div>
 		</li>
 		);
