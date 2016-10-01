@@ -3,6 +3,7 @@
 # dependencies
 ReactJS/ListFilter/node_modules
 ReactJS/FluxExample/node_modules
+NodeJS/RESTful/node_modules
 
 # production
 ReactJS/ListFilter/build
@@ -10,3 +11,4 @@ ReactJS/ListFilter/build
 # misc
 .DS_Store
 ReactJS/ListFilter/npm-debug.log
+NodeJS/RESTful/npm-debug.log
