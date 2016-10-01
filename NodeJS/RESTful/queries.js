@@ -23,7 +23,7 @@ function getAllRestaurants(req,res,next){
 };
 
 function getRestaurantByName(req,res,next){
-	var name=reques.params.name;
+	var name=req.params.name;
 	db.any('select * from restaurant where name=$1',name)
 	.then(function(data){
 		res.status(200)
